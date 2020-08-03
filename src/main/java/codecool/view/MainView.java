@@ -1,6 +1,10 @@
 package codecool.view;
 
+import java.util.Scanner;
+
 public class MainView {
+
+    private final Scanner scanner = new Scanner(System.in);
 
     public void printMenu() {
         String[] options = {"Add", "Edit", "Delete", "Print", "Exit"};
@@ -8,5 +12,17 @@ public class MainView {
             System.out.println("  " + (i + 1) + ". " + options[i]);
         }
         System.out.println();
+    }
+
+    public int getIntegerInput() {
+        while(!scanner.hasNextInt()){
+            scanner.next();
+            System.out.println("\n" + "  Enter integer");
+            System.out.print("\033[2C");
+        }
+        int input = scanner.nextInt();
+        scanner.nextLine();
+
+        return input;
     }
 }
