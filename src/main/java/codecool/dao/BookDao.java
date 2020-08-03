@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface BookDao {
 
-    void add(Book book);
+    int add(Book book);
 
     void delete(int bookId);
 
