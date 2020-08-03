@@ -25,4 +25,16 @@ public class MainView {
 
         return input;
     }
+
+    public String getStringInput() {
+        while(!scanner.hasNext()){
+            scanner.next();
+            System.out.println("\n" + "  Enter string");
+            System.out.print("\033[2C");
+        }
+        String input = scanner.next();
+        scanner.nextLine();
+
+        return input;
+    }
 }

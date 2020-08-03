@@ -29,7 +29,7 @@ public class RootController {
 
             switch(input) {
                 case 1:
-                    //bookDao.add(Book book);
+                    bookDao.add(addBook());
                     break;
                 case 2:
                     //bookDao.edit();
@@ -46,5 +46,16 @@ public class RootController {
                 default:
             }
         }
+    }
+
+    public Book addBook(){
+        int ISBN = mainView.getIntegerInput();
+        int author_id = mainView.getIntegerInput();
+        String title = mainView.getStringInput();
+        int publisher_id = mainView.getIntegerInput();
+        int publication_year = mainView.getIntegerInput();
+        int price = mainView.getIntegerInput();
+
+        return new Book(ISBN, author_id, title, publisher_id, publication_year, price);
     }
 }
