@@ -19,7 +19,7 @@ public class AppController {
 
         BookDao bookDao = new PSQLBookDao(conn);
 
-        new RootController(bookDao, conn);
+        new RootController(bookDao, conn).run();
 
         try {
             conn.close();

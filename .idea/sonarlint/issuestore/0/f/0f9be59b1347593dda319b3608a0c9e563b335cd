@@ -1,0 +1,10 @@
+
+]	java:S125&"<This block of commented-out lines of code should be removed.(ò¤³Ãùÿÿÿÿ8õè­¦».
+E
+java:S1068"(Remove this unused "conn" private field.(”…œî8ÕÒ«¦».
+r	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“‹ ñşÿÿÿÿ8„ªæ¦».
+r	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“íÑªüÿÿÿÿ8İ¥ç¦».
+X	java:S125)"<This block of commented-out lines of code should be removed.(í•ë²8ãµ¯¦».
+m	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò˜ÓĞ8İ¥ç¦».
+X	java:S125#"<This block of commented-out lines of code should be removed.(ñ²ç8ÕÒ«¦».
+m	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şú½Ğ8İ¥ç¦».

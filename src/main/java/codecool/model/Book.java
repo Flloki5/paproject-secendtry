@@ -1,16 +1,15 @@
 package codecool.model;
 
 
-
 public class Book {
-    private int ISBN;
+    private long ISBN;
     private int author_id;
     private String title;
-    private int publisher_id;
+    private String publisher_id;
     private int publication_year;
-    private int price;
+    private double price;
 
-    public Book(int ISBN, int author_id, String title, int publisher_id, int publication_year, int price) {
+    public Book(long ISBN, int author_id, String title, String publisher_id, int publication_year, double price) {
         this.ISBN = ISBN;
         this.author_id = author_id;
         this.title = title;
@@ -19,7 +18,7 @@ public class Book {
         this.price = price;
     }
 
-    public int getISBN() {
+    public long getISBN() {
         return ISBN;
     }
 
@@ -31,7 +30,7 @@ public class Book {
         return title;
     }
 
-    public int getPublisher_id() {
+    public String getPublisher_id() {
         return publisher_id;
     }
 
@@ -39,11 +38,11 @@ public class Book {
         return publication_year;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setISBN(int ISBN) {
+    public void setISBN(long ISBN) {
         this.ISBN = ISBN;
     }
 
@@ -55,7 +54,7 @@ public class Book {
         this.title = title;
     }
 
-    public void setPublisher_id(int publisher_id) {
+    public void setPublisher_id(String publisher_id) {
         this.publisher_id = publisher_id;
     }
 
@@ -63,7 +62,7 @@ public class Book {
         this.publication_year = publication_year;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 }

@@ -5,6 +5,7 @@ import codecool.model.Book;
 import codecool.view.MainView;
 
 import java.sql.Connection;
+import java.util.List;
 
 public class RootController {
 
@@ -38,7 +39,10 @@ public class RootController {
                     //bookDao.delete();
                     break;
                 case 4:
-                    //bookDao.getBooksList();
+                    List<Book> bookList = bookDao.getBooksList();
+                    for (Book element: bookList) {
+                        System.out.println(element.getISBN() + " " + element.getAuthor_id() + " " + element.getPublication_year() + " " + element.getPrice() + " " + element.getTitle());
+                    }
                     break;
                 case 5:
                     isRunning = false;
@@ -52,7 +56,7 @@ public class RootController {
         int ISBN = mainView.getIntegerInput();
         int author_id = mainView.getIntegerInput();
         String title = mainView.getStringInput();
-        int publisher_id = mainView.getIntegerInput();
+        String publisher_id = mainView.getStringInput();
         int publication_year = mainView.getIntegerInput();
         int price = mainView.getIntegerInput();
 
