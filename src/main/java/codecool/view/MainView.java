@@ -1,5 +1,7 @@
 package codecool.view;
 
+import codecool.model.Book;
+
 import java.util.Scanner;
 
 public class MainView {
@@ -36,5 +38,9 @@ public class MainView {
         scanner.nextLine();
 
         return input;
+    }
+
+    public void printElement(Book element){
+        System.out.println(String.format(" %d | %d | %s | %s | %d | %.2f",element.getISBN(), element.getAuthor_id(), element.getTitle(), element.getPublisher_id(), element.getPublication_year(), element.getPrice()));
     }
 }

@@ -66,7 +66,6 @@ public class PSQLBookDao implements BookDao {
         }catch (SQLException e) {
             System.out.println("Error executing query: " + e.getMessage());
         }
-
         return booksList;
     }
 }

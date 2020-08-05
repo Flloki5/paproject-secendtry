@@ -1,20 +1,19 @@
 
-s	java:S116	"WRename this field "publisher_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òî’à8ºƒÊ¥».
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í‡^8£Ë¥».
-w	java:S116
-"[Rename this field "publication_year" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¯¦à8ºƒÊ¥».
-j	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü»†8ü…Í¥».
-j	java:S116"ORename this field "ISBN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸²’Y8ºƒÊ¥».
-j	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¾‘8ÿƒÌ¥».
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í‡^8£Ë¥».
-p	java:S116"TRename this field "author_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìóµÓ8ºƒÊ¥».
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í‡^8£Ë¥».
-j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óô ™8ÿƒÌ¥».
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í‡^8£Ë¥».
-m	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÃªı8µ·Ê¦».
-r	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–™²ıÿÿÿÿ8µ·Ê¦».
-r	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¿Ü¯ùÿÿÿÿ8µ·Ê¦».
-r	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ı¦¸øÿÿÿÿ8µ·Ê¦».
-o	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–™²ıÿÿÿÿ8µ·Ê¦».
-o	java:S100:"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¿Ü¯ùÿÿÿÿ8µ·Ê¦».
-o	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ı¦¸øÿÿÿÿ8µ·Ê¦».
+p	java:S116"ORename this field "ISBN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãú±úÿÿÿÿ8ºƒÊ¥».
+o	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óËÑ©ıÿÿÿÿ8ÿƒÌ¥».
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÄåõøÿÿÿÿ8£Ë¥».
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÄåõøÿÿÿÿ8£Ë¥».
+w	java:S116	"[Rename this field "publication_year" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¯¦à8ºƒÊ¥».
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÄåõøÿÿÿÿ8£Ë¥».
+s	java:S116"WRename this field "publisher_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ş¨è8ºƒÊ¥».
+j	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü»†8ü…Í¥».
+m	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ†®8µ·Ê¦».
+r	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ı¦¸øÿÿÿÿ8µ·Ê¦».
+o	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ı¦¸øÿÿÿÿ8µ·Ê¦».
+j	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ†®8µ·Ê¦».
+o	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–™²ıÿÿÿÿ8µ·Ê¦».
+p	java:S116"TRename this field "author_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìóµÓ8ºƒÊ¥».
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÄåõøÿÿÿÿ8£Ë¥».
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óô ™8ÿƒÌ¥».
+r	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”’”Ëúÿÿÿÿ8µ·Ê¦».
+r	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–™²ıÿÿÿÿ8µ·Ê¦».

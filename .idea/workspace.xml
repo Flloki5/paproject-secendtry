@@ -14,7 +14,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ba19297-e671-4b4a-b902-0019acde5cc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f9be59b1347593dda319b3608a0c9e563b335cd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f9be59b1347593dda319b3608a0c9e563b335cd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/4452f0a972157b21dbb8a3b58babe5d82fec9edd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/4452f0a972157b21dbb8a3b58babe5d82fec9edd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab7a0b09f8ec962db4b9a5c8ffa695d2c2b7d187" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab7a0b09f8ec962db4b9a5c8ffa695d2c2b7d187" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb2bd53c81b3ab36efcf3333b03966df69d16b54" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb2bd53c81b3ab36efcf3333b03966df69d16b54" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd9d19a6ba2637b15bccc8df47e656af2684f319" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd9d19a6ba2637b15bccc8df47e656af2684f319" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codecool/controller/RootController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecool/controller/RootController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codecool/dao/PSQLBookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecool/dao/PSQLBookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codecool/view/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codecool/view/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codecool/controller/RootController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecool/controller/RootController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codecool/dao/PSQLBookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecool/dao/PSQLBookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codecool/view/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codecool/view/MainView.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +62,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/data" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/data" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/data" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,22 +124,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="697" y="222" width="583" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1596462654982" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1596535552453">
+    <state width="1807" height="272" key="GridCell.Tab.0.bottom" timestamp="1596633724074">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596535552453" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1596535552452">
+    <state width="1807" height="272" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596633724074" />
+    <state width="1807" height="272" key="GridCell.Tab.0.center" timestamp="1596633724073">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596535552452" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1596535552452">
+    <state width="1807" height="272" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596633724073" />
+    <state width="1807" height="272" key="GridCell.Tab.0.left" timestamp="1596633724073">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596535552452" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1596535552452">
+    <state width="1807" height="272" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596633724073" />
+    <state width="1807" height="272" key="GridCell.Tab.0.right" timestamp="1596633724074">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596535552452" />
+    <state width="1807" height="272" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596633724074" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1596559839247">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1596559839247" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1596559839247">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1596559839247" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1596559839246">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1596559839246" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1596559839247">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1596559839247" />
     <state x="476" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1596462647435">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
